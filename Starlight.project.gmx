@@ -116,6 +116,7 @@
   <rooms name="rooms">
     <room>rooms\level1</room>
     <room>rooms\MainTitle</room>
+    <room>rooms\rmTutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
