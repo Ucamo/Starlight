@@ -32,7 +32,6 @@
       <sprite>sprites\Lvl9</sprite>
       <sprite>sprites\Lvl10</sprite>
       <sprite>sprites\MsgScore</sprite>
-      <sprite>sprites\btnSurvival</sprite>
       <sprite>sprites\Tutorial</sprite>
       <sprite>sprites\Survival</sprite>
     </sprites>
@@ -52,7 +51,9 @@
       <sprite>sprites\btnTutorial</sprite>
       <sprite>sprites\btnNext</sprite>
       <sprite>sprites\btnReturn</sprite>
+      <sprite>sprites\btnSurvival</sprite>
     </sprites>
+    <sprite>sprites\logo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Fondo1</background>
@@ -65,18 +66,56 @@
     <object>objects\objYellowStar</object>
     <object>objects\objBomb</object>
     <object>objects\objBlueStar</object>
-    <object>objects\SpawnerLeftYellowStars</object>
-    <object>objects\objSpawnerLeftBombs</object>
-    <object>objects\SpawnerLeftBlueStars</object>
-    <object>objects\DestroyStars</object>
     <object>objects\objBreakYellow</object>
     <object>objects\objBreakBomb</object>
     <object>objects\objBreakBlue</object>
     <object>objects\txtPuntaje</object>
     <object>objects\txtTiempo</object>
+    <object>objects\object12</object>
+    <objects name="Buttons">
+      <object>objects\objBtnStart</object>
+      <object>objects\objBtnTutorial</object>
+      <object>objects\objBtnNext</object>
+      <object>objects\ObjBtnReturn</object>
+      <object>objects\objBtnSurvival</object>
+    </objects>
+    <objects name="Decorations">
+      <object>objects\objTree1</object>
+      <object>objects\objTree2</object>
+      <object>objects\objTree3</object>
+      <object>objects\objTree4</object>
+      <object>objects\objBush1</object>
+      <object>objects\objBush2</object>
+      <object>objects\objBush3</object>
+      <object>objects\objBush4</object>
+      <object>objects\objBench</object>
+    </objects>
+    <objects name="Levels">
+      <object>objects\objLvl1</object>
+      <object>objects\objLvl2</object>
+      <object>objects\objLvl3</object>
+      <object>objects\objLvl4</object>
+      <object>objects\objLvl5</object>
+      <object>objects\objLvl6</object>
+      <object>objects\objLvl7</object>
+      <object>objects\objLvl8</object>
+      <object>objects\objLvl9</object>
+      <object>objects\objLvl10</object>
+      <object>objects\objMsgScore</object>
+      <object>objects\objTutorial</object>
+      <object>objects\objSurvival</object>
+    </objects>
+    <objects name="Spawners">
+      <object>objects\SpawnerLeftYellowStars</object>
+      <object>objects\objSpawnerLeftBombs</object>
+      <object>objects\DestroyStars</object>
+      <object>objects\SpawnerLeftBlueStars</object>
+    </objects>
+    <object>objects\objLogo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level1</room>
+    <room>rooms\MainTitle</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
