@@ -52,6 +52,7 @@
       <sprite>sprites\btnNext</sprite>
       <sprite>sprites\btnReturn</sprite>
       <sprite>sprites\btnSurvival</sprite>
+      <sprite>sprites\btnRetry</sprite>
     </sprites>
     <sprite>sprites\logo</sprite>
   </sprites>
@@ -77,6 +78,7 @@
       <object>objects\objBtnTutorial</object>
       <object>objects\objBtnNext</object>
       <object>objects\ObjBtnReturn</object>
+      <object>objects\objBtnRetry</object>
       <object>objects\objBtnSurvival</object>
     </objects>
     <objects name="Decorations">
@@ -126,8 +128,10 @@
     <room>rooms\Instructions_7</room>
     <room>rooms\Instructions_8</room>
     <room>rooms\Instructions_9</room>
-    <room>rooms\Instructions_Survival</room>
     <room>rooms\Instructions_10</room>
+    <room>rooms\Instructions_Survival</room>
+    <room>rooms\YouLose</room>
+    <room>rooms\YouWin</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
