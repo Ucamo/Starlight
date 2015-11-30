@@ -10,7 +10,18 @@
   <persistent>0</persistent>
   <colour>16512930</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>globalvar time;
+time =30;
+globalvar LoseWithBomb;
+LoseWithBomb=false;
+globalvar currentRoom;
+currentRoom = room_get_name(room);
+globalvar indexRoom;
+indexRoom= asset_get_index(global.currentRoom);
+globalvar next;
+next= asset_get_index(global.currentRoom);
+globalvar WinScore;
+WinScore =30;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

@@ -53,6 +53,9 @@
   <instances>
     <instance objName="objMsgScore" x="320" y="192" name="inst_26E8E563" locked="0" code="" scaleX="1.0185614824295" scaleY="1.27309238910675" colour="4294967295" rotation="0"/>
     <instance objName="objBtnNext" x="320" y="416" name="inst_F1DF6B84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objtxtYouWin" x="32" y="224" name="inst_4CF5804C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="txtFinalScore" x="0" y="128" name="inst_947BF1D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="txtFinalTime" x="0" y="160" name="inst_4363F37D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

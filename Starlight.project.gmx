@@ -70,9 +70,11 @@
     <object>objects\objBreakYellow</object>
     <object>objects\objBreakBomb</object>
     <object>objects\objBreakBlue</object>
-    <object>objects\txtPuntaje</object>
-    <object>objects\txtTiempo</object>
-    <object>objects\object12</object>
+    <object>objects\txtScore</object>
+    <object>objects\txtFinalScore</object>
+    <object>objects\txtTime</object>
+    <object>objects\txtFinalTime</object>
+    <object>objects\objRoomRules</object>
     <objects name="Buttons">
       <object>objects\objBtnStart</object>
       <object>objects\objBtnTutorial</object>
@@ -114,6 +116,8 @@
       <object>objects\SpawnerLeftBlueStars</object>
     </objects>
     <object>objects\objLogo</object>
+    <object>objects\objtxtYouLose</object>
+    <object>objects\objtxtYouWin</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainTitle</room>
