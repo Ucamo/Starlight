@@ -21,7 +21,9 @@ indexRoom= asset_get_index(global.currentRoom);
 globalvar next;
 next= asset_get_index(global.currentRoom);
 globalvar WinScore;
-WinScore =30;</code>
+WinScore =30;
+globalvar starSpeed;
+starSpeed=speed;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

@@ -18,7 +18,7 @@
     <sprite>sprites\BreakBlueStar</sprite>
     <sprite>sprites\Bomb</sprite>
     <sprite>sprites\BombExplosion</sprite>
-    <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\spSpawnerBlueStar</sprite>
     <sprite>sprites\spDestroyStars</sprite>
     <sprites name="Levels">
       <sprite>sprites\Lvl1</sprite>
@@ -57,7 +57,16 @@
     <sprite>sprites\logo</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\Fondo1</background>
+    <background>background\bg_1</background>
+    <background>background\bg_2</background>
+    <background>background\bg_3</background>
+    <background>background\bg_4</background>
+    <background>background\bg_5</background>
+    <background>background\bg_6</background>
+    <background>background\bg_7</background>
+    <background>background\bg_8</background>
+    <background>background\bg_9</background>
+    <background>background\bg_10</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -125,6 +134,7 @@
     <room>rooms\Instructions_1</room>
     <room>rooms\level1</room>
     <room>rooms\Instructions_2</room>
+    <room>rooms\level2</room>
     <room>rooms\Instructions_3</room>
     <room>rooms\Instructions_4</room>
     <room>rooms\Instructions_5</room>
