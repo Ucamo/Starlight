@@ -12,8 +12,10 @@
   <showcolour>0</showcolour>
   <code>global.time=60;
 global.WinScore=30;
-global.next= global.indexRoom+2;
-global.starSpeed=10;</code>
+
+global.starSpeed=10;
+
+global.currentRoom = room_get_name(room);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

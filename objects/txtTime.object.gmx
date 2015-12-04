@@ -73,7 +73,7 @@ alarm[0] = room_speed;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(view_xview+250,view_yview+5,"Time: "+string(global.time));
+            <string>draw_text(view_xview+250,view_yview+5,"Time: "+string(global.time)+" next "+string(global.next));
 </string>
           </argument>
         </arguments>
