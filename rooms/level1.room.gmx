@@ -11,7 +11,7 @@
   <colour>12632256</colour>
   <showcolour>0</showcolour>
   <code>global.time=60;
-global.WinScore=30;
+global.WinScore=3;
 
 global.starSpeed=10;
 
@@ -56,16 +56,16 @@ global.currentRoom = room_get_name(room);</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="DestroyStars" x="-32" y="256" name="inst_26C3EF81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SpawnerLeftBlueStars" x="640" y="224" name="inst_69343B5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DestroyObjects" x="-32" y="256" name="inst_26C3EF81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpawnerLeftBlueStars" x="640" y="224" name="inst_69343B5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SpawnerLeftYellowStars" x="640" y="224" name="inst_275A91F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="txtScore" x="64" y="32" name="inst_EA0B483C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="txtTime" x="96" y="0" name="inst_D4F33DAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawnerLeftBombs" x="640" y="224" name="inst_DA6DE2B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomRules" x="64" y="0" name="inst_4B374E32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DestroyStars" x="320" y="-32" name="inst_38583F3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="DestroyStars" x="320" y="448" name="inst_DC68325C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="DestroyStars" x="672" y="160" name="inst_739F8BE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DestroyObjects" x="320" y="-32" name="inst_38583F3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="DestroyObjects" x="320" y="448" name="inst_DC68325C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="DestroyObjects" x="672" y="160" name="inst_739F8BE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -51,11 +51,11 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>objBomb_Left</object>
+            <object>objBomb_Right</object>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>640</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>0</kind>

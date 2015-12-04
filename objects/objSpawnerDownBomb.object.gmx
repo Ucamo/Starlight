@@ -51,7 +51,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>objBomb_Left</object>
+            <object>objBomb_Down</object>
           </argument>
           <argument>
             <kind>0</kind>

@@ -73,12 +73,6 @@
     <font>fonts\f_Score</font>
   </fonts>
   <objects name="objects">
-    <object>objects\objYellowStar</object>
-    <object>objects\objBomb</object>
-    <object>objects\objBlueStar</object>
-    <object>objects\objBreakYellow</object>
-    <object>objects\objBreakBomb</object>
-    <object>objects\objBreakBlue</object>
     <object>objects\txtScore</object>
     <object>objects\txtFinalScore</object>
     <object>objects\txtTime</object>
@@ -119,14 +113,50 @@
       <object>objects\objSurvival</object>
     </objects>
     <objects name="Spawners">
-      <object>objects\SpawnerLeftYellowStars</object>
-      <object>objects\objSpawnerLeftBombs</object>
-      <object>objects\DestroyStars</object>
-      <object>objects\SpawnerLeftBlueStars</object>
+      <object>objects\DestroyObjects</object>
+      <objects name="SpawnYellowStars">
+        <object>objects\SpawnerLeftYellowStars</object>
+        <object>objects\SpawnerRightYellowStars</object>
+        <object>objects\SpawnerDownYellowStars</object>
+        <object>objects\SpawnerUPYellowStars</object>
+      </objects>
+      <objects name="SpawnBombs">
+        <object>objects\objSpawnerLeftBombs</object>
+        <object>objects\objSpawnerRightBomb</object>
+        <object>objects\objSpawnerDownBomb</object>
+        <object>objects\objSpawnerUpBomb</object>
+      </objects>
+      <objects name="SpawnBlueStars">
+        <object>objects\objSpawnerLeftBlueStars</object>
+        <object>objects\objSpawnerRightBlueStars</object>
+        <object>objects\objSpawnerDownBlueStars</object>
+        <object>objects\objSpawnerUpBlueStars</object>
+      </objects>
     </objects>
     <object>objects\objLogo</object>
     <object>objects\objtxtYouLose</object>
     <object>objects\objtxtYouWin</object>
+    <objects name="YelloStars">
+      <object>objects\objYellowStar_Left</object>
+      <object>objects\objYelloStar_Right</object>
+      <object>objects\objYellowStar_Down</object>
+      <object>objects\objYellowStar_Up</object>
+      <object>objects\objBreakYellow</object>
+    </objects>
+    <objects name="BlueStars">
+      <object>objects\objBlueStar_Left</object>
+      <object>objects\objBlueStar_Right</object>
+      <object>objects\objBlueStar_Down</object>
+      <object>objects\objBlueStar_Up</object>
+      <object>objects\objBreakBomb</object>
+    </objects>
+    <objects name="Bombs">
+      <object>objects\objBomb_Left</object>
+      <object>objects\objBomb_Right</object>
+      <object>objects\objBomb_Down</object>
+      <object>objects\objBomb_Up</object>
+      <object>objects\objBreakBlue</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainTitle</room>
