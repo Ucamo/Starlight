@@ -55,11 +55,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>640</string>
+            <string>random(640)</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(384)</string>
+            <string>448</string>
           </argument>
         </arguments>
       </action>
