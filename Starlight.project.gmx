@@ -148,14 +148,14 @@
       <object>objects\objBlueStar_Right</object>
       <object>objects\objBlueStar_Down</object>
       <object>objects\objBlueStar_Up</object>
-      <object>objects\objBreakBomb</object>
+      <object>objects\objBreakBlue</object>
     </objects>
     <objects name="Bombs">
       <object>objects\objBomb_Left</object>
       <object>objects\objBomb_Right</object>
       <object>objects\objBomb_Down</object>
       <object>objects\objBomb_Up</object>
-      <object>objects\objBreakBlue</object>
+      <object>objects\objBreakBomb</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -166,6 +166,7 @@
     <room>rooms\Instructions_2</room>
     <room>rooms\level2</room>
     <room>rooms\Instructions_3</room>
+    <room>rooms\level3</room>
     <room>rooms\Instructions_4</room>
     <room>rooms\Instructions_5</room>
     <room>rooms\Instructions_6</room>
