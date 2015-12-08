@@ -8,11 +8,13 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>16777109</colour>
-  <showcolour>-1</showcolour>
-  <code>global.currentRoom = room_get_name(room);
-global.indexRoom= asset_get_index(global.currentRoom);
-global.next= global.indexRoom+1;</code>
+  <colour>12632256</colour>
+  <showcolour>0</showcolour>
+  <code>global.time=60;
+global.WinScore=2;
+global.currentRoom = room_get_name(room);
+global.starSpeed=16;
+global.LoseWithBomb=true;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -33,7 +35,7 @@ global.next= global.indexRoom+1;</code>
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bg_5" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -53,9 +55,21 @@ global.next= global.indexRoom+1;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objBtnNext" x="448" y="384" name="inst_6DCC77F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjBtnReturn" x="224" y="384" name="inst_239C7348" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLvl6" x="320" y="192" name="inst_00D01D48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DestroyObjects" x="-32" y="256" name="inst_26C3EF81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="txtScore" x="64" y="32" name="inst_EA0B483C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="txtTime" x="96" y="0" name="inst_D4F33DAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomRules" x="64" y="0" name="inst_4B374E32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DestroyObjects" x="320" y="-32" name="inst_38583F3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="DestroyObjects" x="320" y="448" name="inst_DC68325C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="DestroyObjects" x="672" y="160" name="inst_739F8BE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objYellowStar_Left" x="704" y="128" name="inst_614E487C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SpawnerDownYellowStars" x="-32" y="160" name="inst_4432634E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SpawnerDownYellowStars" x="0" y="192" name="inst_3B03EDC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SpawnerUPYellowStars" x="0" y="192" name="inst_40D61C0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpawnerDownBomb" x="0" y="192" name="inst_A6DC6209" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpawnerUpBomb" x="0" y="192" name="inst_B1F58F88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpawnerDownBlueStars" x="0" y="192" name="inst_47DFE4C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpawnerUpBlueStars" x="0" y="192" name="inst_A720014F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
