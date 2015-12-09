@@ -48,37 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_black);
-draw_set_font(f_Score);
+            <string>draw_special_text(view_xview+100,view_yview+5,"Score : "+string(score),0.1,0.1,0,c_white,0);
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>703</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_score</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>view_xview+60</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>view_yview+5</string>
-          </argument>
-          <argument>
-            <kind>1</kind>
-            <string>Score: </string>
           </argument>
         </arguments>
       </action>
