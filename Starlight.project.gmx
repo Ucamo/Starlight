@@ -55,6 +55,48 @@
       <sprite>sprites\btnRetry</sprite>
     </sprites>
     <sprite>sprites\logo</sprite>
+    <sprites name="SpecialFont">
+      <sprite>sprites\sp_sExclamattion</sprite>
+      <sprite>sprites\sp_sdot</sprite>
+      <sprite>sprites\sp_n9</sprite>
+      <sprite>sprites\sp_n8</sprite>
+      <sprite>sprites\sp_n7</sprite>
+      <sprite>sprites\sp_n6</sprite>
+      <sprite>sprites\sp_n5</sprite>
+      <sprite>sprites\sp_n4</sprite>
+      <sprite>sprites\sp_n3</sprite>
+      <sprite>sprites\sp_n2</sprite>
+      <sprite>sprites\sp_n1</sprite>
+      <sprite>sprites\sp_n0</sprite>
+      <sprite>sprites\sp_Z</sprite>
+      <sprite>sprites\sp_Y</sprite>
+      <sprite>sprites\sp_X</sprite>
+      <sprite>sprites\sp_W</sprite>
+      <sprite>sprites\sp_V</sprite>
+      <sprite>sprites\sp_U</sprite>
+      <sprite>sprites\sp_T</sprite>
+      <sprite>sprites\sp_S</sprite>
+      <sprite>sprites\sp_R</sprite>
+      <sprite>sprites\sp_Q</sprite>
+      <sprite>sprites\sp_P</sprite>
+      <sprite>sprites\sp_O</sprite>
+      <sprite>sprites\sp_N</sprite>
+      <sprite>sprites\sp_M</sprite>
+      <sprite>sprites\sp_L</sprite>
+      <sprite>sprites\sp_K</sprite>
+      <sprite>sprites\sp_J</sprite>
+      <sprite>sprites\sp_I</sprite>
+      <sprite>sprites\sp_H</sprite>
+      <sprite>sprites\sp_G</sprite>
+      <sprite>sprites\sp_F</sprite>
+      <sprite>sprites\sp_E</sprite>
+      <sprite>sprites\sp_D</sprite>
+      <sprite>sprites\sp_C</sprite>
+      <sprite>sprites\sp_B</sprite>
+      <sprite>sprites\sp_A</sprite>
+      <sprite>sprites\sp_scomma</sprite>
+      <sprite>sprites\sp_sSpace</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -69,6 +111,10 @@
     <background>background\bg_10</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\init_charmap.gml</script>
+    <script>scripts\draw_special_text.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\f_Score</font>
   </fonts>

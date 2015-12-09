@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(view_xview+250,view_yview+70,"You Win");
+            <string>draw_special_text(view_xview+300,view_yview+70,"You W in",0.2,0.2,0,c_white,0);
+
 </string>
           </argument>
         </arguments>
