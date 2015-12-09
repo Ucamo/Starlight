@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(view_xview+200,view_yview+250,"Your Time: "+string(global.time));
+            <string>draw_special_text(view_xview+300,view_yview+230,"Your T ime : "+string(global.time),0.1,0.1,0,c_white,0);
 </string>
           </argument>
         </arguments>

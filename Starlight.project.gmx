@@ -96,6 +96,8 @@
       <sprite>sprites\sp_A</sprite>
       <sprite>sprites\sp_scomma</sprite>
       <sprite>sprites\sp_sSpace</sprite>
+      <sprite>sprites\sp_sDobleDot</sprite>
+      <sprite>sprites\sp_sEquals</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">

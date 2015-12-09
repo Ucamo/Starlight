@@ -18,6 +18,8 @@ ds_map_add(CHARMAP,"!",sp_sExclamattion)
 ds_map_add(CHARMAP,".",sp_sdot)
 ds_map_add(CHARMAP,",",sp_scomma)
 ds_map_add(CHARMAP," ",sp_sSpace)
+ds_map_add(CHARMAP,":",sp_sDobleDot)
+ds_map_add(CHARMAP,"=",sp_sEquals)
 
 //LETTERS
 ds_map_add(CHARMAP,"a",sp_A)
