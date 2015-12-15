@@ -123,6 +123,7 @@
   <objects name="objects">
     <object>objects\txtScore</object>
     <object>objects\txtFinalScore</object>
+    <object>objects\txtEndGame</object>
     <object>objects\txtTime</object>
     <object>objects\txtFinalTime</object>
     <object>objects\objRoomRules</object>
@@ -229,6 +230,7 @@
     <room>rooms\level9</room>
     <room>rooms\Instructions_10</room>
     <room>rooms\level10</room>
+    <room>rooms\Instructions_EndGame</room>
     <room>rooms\Instructions_Survival</room>
     <room>rooms\YouLose</room>
     <room>rooms\YouWin</room>
