@@ -54,9 +54,6 @@ global.LoseWithBomb=true;</code>
   </views>
   <instances>
     <instance objName="DestroyObjects" x="-32" y="256" name="inst_26C3EF81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="txtScore" x="64" y="32" name="inst_EA0B483C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="txtTime" x="96" y="0" name="inst_D4F33DAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomRules" x="64" y="0" name="inst_4B374E32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DestroyObjects" x="320" y="-32" name="inst_38583F3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="DestroyObjects" x="320" y="448" name="inst_DC68325C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="DestroyObjects" x="672" y="160" name="inst_739F8BE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -72,6 +69,8 @@ global.LoseWithBomb=true;</code>
     <instance objName="objSpawnerDownBomb" x="0" y="192" name="inst_B739C7BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawnerLeftBlueStars" x="0" y="192" name="inst_B5F6A32E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawnerDownBlueStars" x="0" y="192" name="inst_041442B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="txtTimeSurvival" x="64" y="32" name="inst_AD35BC70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="txtScoreSurvival" x="96" y="0" name="inst_00ACE785" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

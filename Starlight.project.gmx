@@ -122,9 +122,11 @@
   </fonts>
   <objects name="objects">
     <object>objects\txtScore</object>
+    <object>objects\txtScoreSurvival</object>
     <object>objects\txtFinalScore</object>
     <object>objects\txtEndGame</object>
     <object>objects\txtTime</object>
+    <object>objects\txtTimeSurvival</object>
     <object>objects\txtFinalTime</object>
     <object>objects\objRoomRules</object>
     <objects name="Buttons">
@@ -230,7 +232,7 @@
     <room>rooms\level9</room>
     <room>rooms\Instructions_10</room>
     <room>rooms\level10</room>
-    <room>rooms\room27</room>
+    <room>rooms\levelSurvival</room>
     <room>rooms\Instructions_EndGame</room>
     <room>rooms\Instructions_Survival</room>
     <room>rooms\YouLose</room>
