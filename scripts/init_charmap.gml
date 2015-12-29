@@ -20,6 +20,7 @@ ds_map_add(CHARMAP,",",sp_scomma)
 ds_map_add(CHARMAP," ",sp_sSpace)
 ds_map_add(CHARMAP,":",sp_sDobleDot)
 ds_map_add(CHARMAP,"=",sp_sEquals)
+ds_map_add(CHARMAP,"-",sp_sMinus)
 
 //LETTERS
 ds_map_add(CHARMAP,"a",sp_A)
