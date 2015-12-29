@@ -100,6 +100,19 @@
       <sprite>sprites\sp_sEquals</sprite>
       <sprite>sprites\sp_sMinus</sprite>
     </sprites>
+    <sprites name="Icons">
+      <sprite>sprites\sp_L1</sprite>
+      <sprite>sprites\sp_L2</sprite>
+      <sprite>sprites\sp_LLocked</sprite>
+      <sprite>sprites\sp_L10</sprite>
+      <sprite>sprites\sp_L9</sprite>
+      <sprite>sprites\sp_L8</sprite>
+      <sprite>sprites\sp_L7</sprite>
+      <sprite>sprites\sp_L6</sprite>
+      <sprite>sprites\sp_L5</sprite>
+      <sprite>sprites\sp_L4</sprite>
+      <sprite>sprites\sp_L3</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -208,6 +221,9 @@
       <object>objects\objBomb_Down</object>
       <object>objects\objBomb_Up</object>
       <object>objects\objBreakBomb</object>
+    </objects>
+    <objects name="Icons">
+      <object>objects\objL1</object>
     </objects>
   </objects>
   <rooms name="rooms">
