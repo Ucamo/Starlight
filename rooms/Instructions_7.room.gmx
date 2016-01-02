@@ -12,7 +12,11 @@
   <showcolour>-1</showcolour>
   <code>global.currentRoom = room_get_name(room);
 global.indexRoom= asset_get_index(global.currentRoom);
-global.next= global.indexRoom+1;</code>
+global.next= global.indexRoom+1;
+
+ini_open("SaveGame.sav");
+ini_write_real("Levels","L7",1);
+ini_close();</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

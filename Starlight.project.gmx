@@ -150,6 +150,7 @@
       <object>objects\ObjBtnReturn</object>
       <object>objects\objBtnRetry</object>
       <object>objects\objBtnSurvival</object>
+      <object>objects\objBtnLevelSelect</object>
     </objects>
     <objects name="Decorations">
       <object>objects\objTree1</object>
@@ -224,6 +225,15 @@
     </objects>
     <objects name="Icons">
       <object>objects\objL1</object>
+      <object>objects\objL2</object>
+      <object>objects\objL3</object>
+      <object>objects\objL4</object>
+      <object>objects\objL5</object>
+      <object>objects\objL6</object>
+      <object>objects\objL7</object>
+      <object>objects\objL8</object>
+      <object>objects\objL9</object>
+      <object>objects\objL10</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -254,6 +264,7 @@
     <room>rooms\Instructions_Survival</room>
     <room>rooms\YouLose</room>
     <room>rooms\YouWin</room>
+    <room>rooms\LevelSelect</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
