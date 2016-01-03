@@ -65,9 +65,9 @@ starSpeed=speed;</code>
   </views>
   <instances>
     <instance objName="objLogo" x="224" y="128" name="inst_260018C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBtnStart" x="480" y="256" name="inst_8B99BA01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBtnTutorial" x="480" y="320" name="inst_87FCA406" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBtnSurvival" x="480" y="384" name="inst_C0A98F74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnStart" x="512" y="256" name="inst_8B99BA01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnTutorial" x="512" y="320" name="inst_87FCA406" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnSurvival" x="512" y="384" name="inst_C0A98F74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBtnLevelSelect" x="160" y="384" name="inst_DE55F6B2" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
