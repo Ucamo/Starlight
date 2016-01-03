@@ -53,6 +53,8 @@
       <sprite>sprites\btnReturn</sprite>
       <sprite>sprites\btnSurvival</sprite>
       <sprite>sprites\btnRetry</sprite>
+      <sprite>sprites\btnContinue</sprite>
+      <sprite>sprites\btnExit</sprite>
     </sprites>
     <sprite>sprites\logo</sprite>
     <sprites name="SpecialFont">
@@ -151,6 +153,7 @@
       <object>objects\objBtnRetry</object>
       <object>objects\objBtnSurvival</object>
       <object>objects\objBtnLevelSelect</object>
+      <object>objects\objBtnExit</object>
     </objects>
     <objects name="Decorations">
       <object>objects\objTree1</object>

@@ -54,8 +54,8 @@ global.next= global.indexRoom+1;</code>
   </views>
   <instances>
     <instance objName="objLvl1" x="320" y="192" name="inst_89731F42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBtnNext" x="448" y="384" name="inst_6DCC77F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjBtnReturn" x="224" y="384" name="inst_239C7348" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnNext" x="448" y="416" name="inst_6DCC77F5" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="ObjBtnReturn" x="192" y="416" name="inst_239C7348" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

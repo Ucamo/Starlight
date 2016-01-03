@@ -51,12 +51,12 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objBtnRetry" x="480" y="384" name="inst_F6E9A79B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnRetry" x="448" y="384" name="inst_F6E9A79B" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
     <instance objName="txtFinalScore" x="64" y="96" name="inst_879D3A4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="txtFinalTime" x="64" y="128" name="inst_DC58A7F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMsgScore" x="320" y="192" name="inst_AA928B76" locked="0" code="" scaleX="1.090487241745" scaleY="1.17670679092407" colour="4294967295" rotation="0"/>
     <instance objName="objtxtYouLose" x="32" y="224" name="inst_CC4BB284" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ObjBtnReturn" x="192" y="384" name="inst_AF8D3B2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjBtnReturn" x="192" y="384" name="inst_AF8D3B2E" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
