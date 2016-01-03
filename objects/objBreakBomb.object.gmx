@@ -79,10 +79,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.LoseWithBomb==true)
+            <string>if(global.isSurvival==false)
 {
-    room_goto(YouLose);
- }
+    if(global.LoseWithBomb==true)
+    {
+        room_goto(YouLose);
+    }
+}
+else
+{
+     if(global.LoseWithBomb==true)
+    {
+        room_goto(YouLoseSurvival);
+    }
+}
+
+
 </string>
           </argument>
         </arguments>

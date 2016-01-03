@@ -8,12 +8,32 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>12632256</colour>
-  <showcolour>0</showcolour>
-  <code>global.currentRoom = room_get_name(room);
-global.starSpeed=10;
-global.LoseWithBomb=true;
-global.isSurvival=true;</code>
+  <colour>16777109</colour>
+  <showcolour>-1</showcolour>
+  <code>ini_open("SaveGame.sav")
+bestScore = ini_read_real("Score", "BestScore", 0)
+
+
+if bestScore == 0
+{
+   ini_write_real("Score","BestScore",score);
+    global.maxScore=score;
+}
+else
+{
+    if(bestScore&lt;=score)
+    {
+        ini_write_real("Score","BestScore",score);
+         global.maxScore=score;
+    }
+    else
+    {
+         global.maxScore=bestScore;
+    }
+   
+}
+
+ini_close()</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -34,7 +54,7 @@ global.isSurvival=true;</code>
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bg_10" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
+    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -54,24 +74,13 @@ global.isSurvival=true;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="DestroyObjects" x="-32" y="256" name="inst_26C3EF81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DestroyObjects" x="320" y="-32" name="inst_38583F3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="DestroyObjects" x="320" y="448" name="inst_DC68325C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="DestroyObjects" x="672" y="160" name="inst_739F8BE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SpawnerRightYellowStars" x="0" y="192" name="inst_7C99581A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SpawnerUPYellowStars" x="0" y="192" name="inst_B8762C35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpawnerRightBomb" x="0" y="192" name="inst_95FDBF29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpawnerUpBomb" x="0" y="192" name="inst_DE47EC02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpawnerRightBlueStars" x="0" y="192" name="inst_6200ACA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpawnerUpBlueStars" x="0" y="192" name="inst_C9058FC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SpawnerLeftYellowStars" x="0" y="192" name="inst_FCA27793" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SpawnerDownYellowStars" x="0" y="192" name="inst_FF758B58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpawnerLeftBombs" x="0" y="192" name="inst_03A6ECB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpawnerDownBomb" x="0" y="192" name="inst_B739C7BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpawnerLeftBlueStars" x="0" y="192" name="inst_B5F6A32E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpawnerDownBlueStars" x="0" y="192" name="inst_041442B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="txtTimeSurvival" x="64" y="32" name="inst_AD35BC70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="txtScoreSurvival" x="96" y="0" name="inst_00ACE785" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnRetry" x="448" y="384" name="inst_F6E9A79B" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="txtFinalScore" x="64" y="96" name="inst_879D3A4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="txtFinalTime" x="64" y="128" name="inst_DC58A7F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMsgScore" x="320" y="192" name="inst_AA928B76" locked="0" code="" scaleX="1.090487241745" scaleY="1.17670679092407" colour="4294967295" rotation="0"/>
+    <instance objName="objtxtYouLose" x="32" y="224" name="inst_CC4BB284" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ObjBtnReturn" x="192" y="384" name="inst_AF8D3B2E" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="txtBestScore" x="32" y="64" name="inst_9E247F13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -14,6 +14,8 @@
 time =30;
 globalvar LoseWithBomb;
 LoseWithBomb=false;
+globalvar isSurvival;
+isSurvival=false;
 globalvar currentRoom;
 currentRoom = room_get_name(room);
 globalvar indexRoom;
@@ -23,7 +25,10 @@ next= asset_get_index(global.currentRoom);
 globalvar WinScore;
 WinScore =30;
 globalvar starSpeed;
-starSpeed=speed;</code>
+starSpeed=speed;
+
+globalvar maxScore;
+maxScore =0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -65,10 +70,10 @@ starSpeed=speed;</code>
   </views>
   <instances>
     <instance objName="objLogo" x="224" y="128" name="inst_260018C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBtnStart" x="544" y="64" name="inst_8B99BA01" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
-    <instance objName="objBtnTutorial" x="544" y="160" name="inst_87FCA406" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
-    <instance objName="objBtnSurvival" x="544" y="256" name="inst_C0A98F74" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
-    <instance objName="objBtnLevelSelect" x="544" y="352" name="inst_DE55F6B2" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnStart" x="544" y="96" name="inst_8B99BA01" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnTutorial" x="544" y="288" name="inst_87FCA406" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnSurvival" x="544" y="384" name="inst_C0A98F74" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnLevelSelect" x="544" y="192" name="inst_DE55F6B2" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
     <instance objName="objBtnExit" x="96" y="384" name="inst_586DC399" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

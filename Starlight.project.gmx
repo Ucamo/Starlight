@@ -140,6 +140,7 @@
     <object>objects\txtScore</object>
     <object>objects\txtScoreSurvival</object>
     <object>objects\txtFinalScore</object>
+    <object>objects\txtBestScore</object>
     <object>objects\txtEndGame</object>
     <object>objects\txtTime</object>
     <object>objects\txtTimeSurvival</object>
@@ -266,6 +267,7 @@
     <room>rooms\Instructions_Survival</room>
     <room>rooms\levelSurvival</room>
     <room>rooms\YouLose</room>
+    <room>rooms\YouLoseSurvival</room>
     <room>rooms\YouWin</room>
     <room>rooms\LevelSelect</room>
   </rooms>
