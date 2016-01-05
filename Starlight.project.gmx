@@ -55,6 +55,7 @@
       <sprite>sprites\btnRetry</sprite>
       <sprite>sprites\btnContinue</sprite>
       <sprite>sprites\btnExit</sprite>
+      <sprite>sprites\btnFacebook</sprite>
     </sprites>
     <sprite>sprites\logo</sprite>
     <sprites name="SpecialFont">
@@ -155,6 +156,7 @@
       <object>objects\objBtnSurvival</object>
       <object>objects\objBtnLevelSelect</object>
       <object>objects\objBtnExit</object>
+      <object>objects\objBtnFacebook</object>
     </objects>
     <objects name="Decorations">
       <object>objects\objTree1</object>
