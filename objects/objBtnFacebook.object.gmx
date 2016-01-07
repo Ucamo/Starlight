@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="6" enumb="0">
+    <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>facebook_init();
-var permissions = ds_list_create();
-ds_list_add(permissions,"public_profile", "user_friends");
-facebook_login(permissions, fb_login_default);
-ds_list_destroy(permissions);
+            <string>//Share Intent for facebook
+
+url_open("https://www.facebook.com/dialog/feed?app_id=1645747905685852&amp;display=popup&amp;caption=Star Smash Score of "+string(score)+" &amp;link=http%3A%2F%2Franacalva.com/starsmash&amp;redirect_uri=https:%2F%2Franacalva.com/starsmash");
+  
+  
 </string>
           </argument>
         </arguments>
