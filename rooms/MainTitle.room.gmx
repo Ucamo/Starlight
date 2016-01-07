@@ -75,6 +75,8 @@ maxScore =0;</code>
     <instance objName="objBtnSurvival" x="544" y="384" name="inst_C0A98F74" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
     <instance objName="objBtnLevelSelect" x="544" y="192" name="inst_DE55F6B2" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
     <instance objName="objBtnExit" x="96" y="384" name="inst_586DC399" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnLikeFacebook" x="288" y="416" name="inst_4CB82D63" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="objBtnFollowTwitter" x="384" y="416" name="inst_62029A25" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

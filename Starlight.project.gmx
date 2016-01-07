@@ -56,6 +56,7 @@
       <sprite>sprites\btnContinue</sprite>
       <sprite>sprites\btnExit</sprite>
       <sprite>sprites\btnFacebook</sprite>
+      <sprite>sprites\btnTwitter</sprite>
     </sprites>
     <sprite>sprites\logo</sprite>
     <sprites name="SpecialFont">
@@ -157,6 +158,9 @@
       <object>objects\objBtnLevelSelect</object>
       <object>objects\objBtnExit</object>
       <object>objects\objBtnFacebook</object>
+      <object>objects\objBtnLikeFacebook</object>
+      <object>objects\objBtnTwitter</object>
+      <object>objects\objBtnFollowTwitter</object>
     </objects>
     <objects name="Decorations">
       <object>objects\objTree1</object>
