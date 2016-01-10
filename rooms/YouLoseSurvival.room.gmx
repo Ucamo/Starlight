@@ -83,6 +83,7 @@ ini_close()</code>
     <instance objName="txtBestScore" x="32" y="64" name="inst_9E247F13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBtnTwitter" x="512" y="224" name="inst_905426B5" locked="0" code="" scaleX="0.600000023841858" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
     <instance objName="ms_lose" x="0" y="160" name="inst_6668D6A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ms_stopMusic" x="32" y="128" name="inst_ACB8C4B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

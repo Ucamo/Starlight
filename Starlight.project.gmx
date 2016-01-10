@@ -7,13 +7,12 @@
   <sounds name="sound">
     <sound>sound\YellowSound</sound>
     <sound>sound\BlueSound</sound>
-    <sound>sound\Win</sound>
-    <sound>sound\Lose</sound>
     <sound>sound\BombSound</sound>
     <sounds name="Music">
       <sound>sound\sn_lose</sound>
       <sound>sound\sn_win</sound>
       <sound>sound\sn_loopMusic</sound>
+      <sound>sound\sn_loop_survival</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -254,6 +253,8 @@
       <object>objects\ms_win</object>
       <object>objects\ms_lose</object>
       <object>objects\ms_background_music</object>
+      <object>objects\ms_background_survival</object>
+      <object>objects\ms_stopMusic</object>
     </objects>
   </objects>
   <rooms name="rooms">

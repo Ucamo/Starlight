@@ -105,7 +105,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sn_loopMusic</sound>
+            <sound>sn_loop_survival</sound>
           </argument>
           <argument>
             <kind>3</kind>
