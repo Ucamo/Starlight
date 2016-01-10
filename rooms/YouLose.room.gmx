@@ -57,6 +57,7 @@
     <instance objName="objMsgScore" x="320" y="192" name="inst_AA928B76" locked="0" code="" scaleX="1.090487241745" scaleY="1.17670679092407" colour="4294967295" rotation="0"/>
     <instance objName="objtxtYouLose" x="32" y="224" name="inst_CC4BB284" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ObjBtnReturn" x="192" y="384" name="inst_AF8D3B2E" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="ms_lose" x="0" y="96" name="inst_6ECB0D6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

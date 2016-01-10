@@ -49,7 +49,7 @@
     <option_android_ouya_icon>Configs\Default\android\icons\ouyaIcon.png</option_android_ouya_icon>
     <option_android_package_company>ranacalva</option_android_package_company>
     <option_android_package_domain>com</option_android_package_domain>
-    <option_android_package_product>Starlight</option_android_package_product>
+    <option_android_package_product>StarSmash</option_android_package_product>
     <option_android_permission_flags>9</option_android_permission_flags>
     <option_android_pocketchange_enable>0</option_android_pocketchange_enable>
     <option_android_pocketchange_id></option_android_pocketchange_id>

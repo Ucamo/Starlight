@@ -10,6 +10,11 @@
     <sound>sound\Win</sound>
     <sound>sound\Lose</sound>
     <sound>sound\BombSound</sound>
+    <sounds name="Music">
+      <sound>sound\sn_lose</sound>
+      <sound>sound\sn_win</sound>
+      <sound>sound\sn_loopMusic</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\YellowStar</sprite>
@@ -244,6 +249,11 @@
       <object>objects\objL8</object>
       <object>objects\objL9</object>
       <object>objects\objL10</object>
+    </objects>
+    <objects name="Music">
+      <object>objects\ms_win</object>
+      <object>objects\ms_lose</object>
+      <object>objects\ms_background_music</object>
     </objects>
   </objects>
   <rooms name="rooms">
