@@ -11,7 +11,7 @@
   <colour>12632256</colour>
   <showcolour>0</showcolour>
   <code>global.time=60;
-global.WinScore=4;
+global.WinScore=40;
 global.currentRoom = room_get_name(room);
 global.starSpeed=24;
 global.LoseWithBomb=false;</code>
