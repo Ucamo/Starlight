@@ -21,7 +21,7 @@
     <option_android_arch_x86>True</option_android_arch_x86>
     <option_android_build_version>0</option_android_build_version>
     <option_android_color_depth>0</option_android_color_depth>
-    <option_android_display_name>Starlight</option_android_display_name>
+    <option_android_display_name>StarSmash</option_android_display_name>
     <option_android_google_analytics_enable>false</option_android_google_analytics_enable>
     <option_android_google_play>0</option_android_google_play>
     <option_android_google_play_id></option_android_google_play_id>
@@ -42,9 +42,9 @@
     <option_android_min_sdk_version>9</option_android_min_sdk_version>
     <option_android_minor_version>0</option_android_minor_version>
     <option_android_orient_landscape>True</option_android_orient_landscape>
-    <option_android_orient_landscape_flipped>True</option_android_orient_landscape_flipped>
-    <option_android_orient_portrait>True</option_android_orient_portrait>
-    <option_android_orient_portrait_flipped>True</option_android_orient_portrait_flipped>
+    <option_android_orient_landscape_flipped>False</option_android_orient_landscape_flipped>
+    <option_android_orient_portrait>False</option_android_orient_portrait>
+    <option_android_orient_portrait_flipped>False</option_android_orient_portrait_flipped>
     <option_android_orientation>2</option_android_orientation>
     <option_android_ouya_icon>Configs\Default\android\icons\ouyaIcon.png</option_android_ouya_icon>
     <option_android_package_company>ranacalva</option_android_package_company>
@@ -57,11 +57,11 @@
     <option_android_portrait_splash_png>Configs\Default\android\portrait_splash.png</option_android_portrait_splash_png>
     <option_android_push_enable>0</option_android_push_enable>
     <option_android_push_id></option_android_push_id>
-    <option_android_scale>-1</option_android_scale>
+    <option_android_scale>0</option_android_scale>
     <option_android_set_device_id></option_android_set_device_id>
     <option_android_splash_png>Configs\Default\android\splash.png</option_android_splash_png>
     <option_android_target_sdk_version>16</option_android_target_sdk_version>
-    <option_android_texture_page>1024</option_android_texture_page>
+    <option_android_texture_page>512</option_android_texture_page>
     <option_android_use_test_ads>0</option_android_use_test_ads>
     <option_argumenterrors>True</option_argumenterrors>
     <option_audioGroupCount>1</option_audioGroupCount>

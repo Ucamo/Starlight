@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>//Open an Intent to Twitter 
-url_open("https://twitter.com/intent/tweet?text=I just scored "+ string(score) +" points on Star Smash! &amp;hashtags=StarSmash &amp;url=http:%2F%2Franacalva.com");
+url_open("https://twitter.com/intent/tweet?text=I just scored "+ string(score) +" points on Star Smash! &amp;hashtags=StarSmash &amp;url=http:%2F%2Franacalva.com/starsmash");
 </string>
           </argument>
         </arguments>
