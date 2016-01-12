@@ -50,6 +50,7 @@ alarm[0] = room_speed;
           <argument>
             <kind>1</kind>
             <string>global.time-=1;
+global.playerTime+=1;
 alarm[0] = room_speed;
 </string>
           </argument>

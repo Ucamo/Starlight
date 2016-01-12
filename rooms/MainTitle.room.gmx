@@ -12,6 +12,8 @@
   <showcolour>-1</showcolour>
   <code>globalvar time;
 time =30;
+globalvar playerTime;
+playerTime =0;
 globalvar LoseWithBomb;
 LoseWithBomb=false;
 globalvar isSurvival;

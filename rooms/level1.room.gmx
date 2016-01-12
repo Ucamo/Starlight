@@ -12,6 +12,7 @@
   <showcolour>0</showcolour>
   <code>global.time=60;
 global.WinScore=30;
+global.playerTime=0;
 
 global.starSpeed=10;
 
