@@ -66,6 +66,7 @@ global.LoseWithBomb=false;</code>
     <instance objName="SpawnerUPYellowStars" x="0" y="192" name="inst_7DF90811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawnerUpBomb" x="0" y="192" name="inst_204D3231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawnerUpBlueStars" x="0" y="192" name="inst_BF8F0F34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBackToMenu" x="0" y="96" name="inst_5AA28C56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

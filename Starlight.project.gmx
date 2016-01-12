@@ -256,6 +256,7 @@
       <object>objects\ms_background_survival</object>
       <object>objects\ms_stopMusic</object>
     </objects>
+    <object>objects\objBackToMenu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainTitle</room>
