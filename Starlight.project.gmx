@@ -61,6 +61,8 @@
       <sprite>sprites\btnExit</sprite>
       <sprite>sprites\btnFacebook</sprite>
       <sprite>sprites\btnTwitter</sprite>
+      <sprite>sprites\sp_vol</sprite>
+      <sprite>sprites\sp_volOff</sprite>
     </sprites>
     <sprite>sprites\logo</sprite>
     <sprites name="SpecialFont">
@@ -165,6 +167,8 @@
       <object>objects\objBtnLikeFacebook</object>
       <object>objects\objBtnTwitter</object>
       <object>objects\objBtnFollowTwitter</object>
+      <object>objects\objVolume</object>
+      <object>objects\objVolumeOff</object>
     </objects>
     <objects name="Decorations">
       <object>objects\objTree1</object>
