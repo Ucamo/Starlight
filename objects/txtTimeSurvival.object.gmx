@@ -52,7 +52,7 @@ global.ActualScore=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.time+=1;
+            <string>global.playerTime+=1;
 global.ActualScore=score;
 if(global.ActualScore!=global.OldScore)
 {
@@ -89,7 +89,7 @@ alarm[0] = room_speed;
             <kind>1</kind>
             <string>
 
-draw_special_text(view_xview+300,view_yview+5,"T ime : "+string(global.time),0.1,0.1,0,c_white,0);
+draw_special_text(view_xview+300,view_yview+5,"T ime : "+string(global.playerTime),0.1,0.1,0,c_white,0);
 </string>
           </argument>
         </arguments>
