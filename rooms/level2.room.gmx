@@ -68,6 +68,7 @@ global.playerTime=0;</code>
     <instance objName="objSpawnerRightBlueStars" x="0" y="224" name="inst_78EEDDF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpawnerRightBomb" x="0" y="224" name="inst_6372E6B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBackToMenu" x="0" y="64" name="inst_4F6FC9D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ms_background_music" x="0" y="96" name="inst_4E288975" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
