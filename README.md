@@ -2,7 +2,9 @@
 
 # Star Smash
 
-Star Smash in Google Play: https://play.google.com/store/apps/details?id=com.ranacalva.StarSmash
+Star Smash in Google Play:
+
+https://play.google.com/store/apps/details?id=com.ranacalva.StarSmash
 
 Game Maker:Studio Game For Android and Windows
 This is a practice project to get a hold of Game Maker.
